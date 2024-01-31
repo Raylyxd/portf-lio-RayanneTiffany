@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #2f2f2f, #000); /* Gradiente de fundo */
+    color: white; /* Cor do texto como branco */
+    font-family: 'Poppins', sans-serif; /* Define a fonte como Poppins */
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+strong {
+    color: #3498db;
+}
+
+button {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 20px; /* Bordas redondas */
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+button:hover {
+    background-color: #2980b9; /* Cor de fundo do botão ao passar o mouse */
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    border-radius: 20px; /* Bordas redondas da imagem */
+    max-width: 200px; /* Largura máxima da imagem */
+    margin-bottom: 20px;
+    margin-top: 0px;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3); /* Efeito de sombra 3D */
+    transition: transform 0.3s ease; /* Efeito de escala suave */
+}
+
+img:hover {
+    transform: scale(1.1); /* Efeito de escala ao passar o mouse */
+}
+
+button:hover{
+
+    transform: scale(1.1);
+}
